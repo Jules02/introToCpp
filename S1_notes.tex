@@ -1,0 +1,71 @@
+%! Author = julesdupont
+%! Date = 24/09/2024
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\lstdefinestyle{mystyle}{
+    basicstyle=\ttfamily\footnotesize,
+    breaklines=true,
+    numberstyle=\tiny\color{gray},
+    numbers=left,
+    numbersep=5pt
+}
+
+\lstset{style=mystyle}
+
+
+% Document
+\begin{document}
+
+    \title{\small INTRODUCTION TO C++ \\ \LARGE LESSON 1: Introduction}
+    \author{Cédric \textsc{Zanni}}
+
+    \maketitle
+
+    \section{Introduction}
+
+    C++ is widely used, from embedded systems to Python reference implementation.
+
+    \section{Modern C++}
+
+    \begin{itemize}
+        \item static type safety
+        \item resources safety
+        \item abstraction
+        \item encapsulation; invariants
+        \item generic programming
+        \item multiparadigm
+    \end{itemize}
+
+    \section{C(++): a compiled language}
+
+    With both C and C++, source code needs to be compiled into assembly language, which will then be translated to machine code (binary).
+
+    \section{Syntax - Delaration and instruction}
+
+    \subsection{Declare variables}
+    \begin{lstlisting}[language=C]
+int capacity;
+float height;
+    \end{lstlisting}
+
+    \subsection{Declare and initialize variables (adivsed!)}
+    \begin{lstlisting}[language=C]
+int capacity = 1;
+float height = 0.5F;
+    \end{lstlisting}
+
+    \subsection{Instructions}
+    \begin{lstlisting}[language=C]
+...
+    \end{lstlisting}
+
+
+\end{document}
