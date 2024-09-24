@@ -6,20 +6,20 @@
 #include <ostream>
 #include <__filesystem/directory_iterator.h>
 
-int sumArray(int arr[], int arraySize);
+uint64_t sumArray(uint64_t arr[], int arraySize);
 
 int main() {
 
     int arraySize = 100000;
 
-    int integersArray[arraySize];
+    uint64_t integersArray[arraySize];
     for(int i = 0; i < arraySize; ++i) {
         integersArray[i] = 2*(i+1);
     }
 
     auto start_time_point = std::chrono::high_resolution_clock::now();
 
-    int s = sumArray(integersArray, arraySize);
+    uint64_t s = sumArray(integersArray, arraySize);
 
     auto end_time_point = std::chrono::high_resolution_clock::now();
 
@@ -31,8 +31,8 @@ int main() {
     return 0;
 }
 
-int sumArray(int arr[], int arraySize) {
-    int sum = 0;
+uint64_t sumArray(uint64_t arr[], int arraySize) {
+    uint64_t sum = 0;
     for (int i = 0; i < arraySize; ++i) {
         sum += arr[i];
     }
