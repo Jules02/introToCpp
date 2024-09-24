@@ -6,13 +6,19 @@
 
 #include <iostream>
 
+void printGreetings(int upperBound);
+
 int main() {
-    for (int i = 2; i <= 10; i+=2) {
+    printGreetings(10);
+    return 0;
+}
+
+void printGreetings(int upperBound) {
+    for (int i = 2; i <= upperBound; i+=2) {
         std::cout << i << std::endl;
     }
     std::cout << "Hello World!\n";
-    for (int i = 9; i >= 1; i-=2) {
+    for (int i = upperBound + (upperBound % 2 - 1); i >= 1; i-=2) {
         std::cout << i << std::endl;
     }
-    return 0;
 }
