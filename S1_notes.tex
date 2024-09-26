@@ -31,7 +31,7 @@
 
     \section{Introduction}
 
-    C++ is widely used, from embedded systems to Python reference implementation.
+    C++ is widely used, from embedded systems to system programming, banking or even Python reference implementation.
 
     \section{Modern C++}
 
@@ -39,14 +39,15 @@
         \item static type safety
         \item resources safety
         \item abstraction
-        \item encapsulation; invariants
+        \item encapsulation, invariants
         \item generic programming
-        \item multiparadigm
+        \item simplicity for most developers
+        \item multiparadigm programming
     \end{itemize}
 
     \section{C(++): a compiled language}
 
-    With both C and C++, source code needs to be compiled into assembly language, which will then be translated to machine code (binary).
+    With both C and C++, source code needs to be compiled into assembly language (through \textit{compilation}), which will then be translated (during \textit{assembly}) to machine code (binary).
 
     \section{Syntax - Delaration and instruction}
 
@@ -64,8 +65,16 @@ float height = 0.5F;
 
     \subsection{Instructions}
     \begin{lstlisting}[language=C]
-...
+letter = 'a';
+height = 0.5F*height + 1.0F;
+++capacity;                 // See difference with capacity++
     \end{lstlisting}
 
+    Note that all variables have a static type, and that the delimiter expression is ';'.
 
+    \section{Base types}
+
+    The floating point precision is not uniform.
+
+    \section{Type conversion}
 \end{document}

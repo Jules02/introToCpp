@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.18)  24 SEP 2024 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.18)  26 SEP 2024 10:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -390,7 +390,7 @@ File: lstlang1.sty 2024/05/25 1.10b listings language file
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 55.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 56.
 
 
 [1
@@ -403,33 +403,43 @@ ftex/pdftex.map}]
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
  ***********
-Package rerunfilecheck Info: File `S1_notes.out' has not changed.
-(rerunfilecheck)             Checksum: 184B2D904AED206549B6E47D1DFF8AAE;1169.
+
+
+Package rerunfilecheck Warning: File `S1_notes.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `S1_notes.out':
+(rerunfilecheck)             Before: D859B8B68E7D7B7DC4E1FE09072E0EEE;1265
+(rerunfilecheck)             After:  0DEDDD9AA1C62D13861DCEE872B2655F;1386.
  ) 
 Here is how much of TeX's memory you used:
- 11003 strings out of 473899
- 169191 string characters out of 5715209
- 1940957 words of memory out of 5000000
- 33759 multiletter control sequences out of 15000+600000
- 564266 words of font info for 58 fonts, out of 8000000 for 9000
+ 11013 strings out of 473899
+ 169305 string characters out of 5715209
+ 1959957 words of memory out of 5000000
+ 33763 multiletter control sequences out of 15000+600000
+ 564780 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,340b,1246s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,340b,2070s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/julesdupont/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/
 ljfour/jknappen/ec/dpi600/tcrm1095.pk></Users/julesdupont/Library/Application S
 upport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/
 julesdupont/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
 c/amsfonts/cm/cmcsc10.pfb></Users/julesdupont/Library/Application Support/MiKTe
-X/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/julesdupont/L
-ibrary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></Users/julesdupont/Library/Application Support/MiKTeX/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/julesdupont/Library/Applicat
-ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Use
-rs/julesdupont/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmtt9.pfb>
+X/texmfs/install/fonts/type1/public/amsfonts/cm/cmitt10.pfb></Users/julesdupont
+/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></Users/julesdupont/Library/Application Support/MiKTeX/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/julesdupont/Library/Applic
+ation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></
+Users/julesdupont/Library/Application Support/MiKTeX/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></Users/julesdupont/Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/julesdupo
+nt/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmtt9.pfb>
 Output written on /Users/julesdupont/school/introToCpp/out/S1_notes.pdf (2 page
-s, 93144 bytes).
+s, 116327 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
