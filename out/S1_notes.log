@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.18)  26 SEP 2024 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.18)  26 SEP 2024 11:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,21 +403,14 @@ ftex/pdftex.map}]
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
  ***********
-
-
-Package rerunfilecheck Warning: File `S1_notes.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `S1_notes.out':
-(rerunfilecheck)             Before: D859B8B68E7D7B7DC4E1FE09072E0EEE;1265
-(rerunfilecheck)             After:  0DEDDD9AA1C62D13861DCEE872B2655F;1386.
+Package rerunfilecheck Info: File `S1_notes.out' has not changed.
+(rerunfilecheck)             Checksum: 0DEDDD9AA1C62D13861DCEE872B2655F;1386.
  ) 
 Here is how much of TeX's memory you used:
- 11013 strings out of 473899
- 169305 string characters out of 5715209
+ 11014 strings out of 473899
+ 169316 string characters out of 5715209
  1959957 words of memory out of 5000000
- 33763 multiletter control sequences out of 15000+600000
+ 33764 multiletter control sequences out of 15000+600000
  564780 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,79p,340b,2070s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -437,9 +430,9 @@ KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/julesdupo
 nt/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
 s/cm/cmtt9.pfb>
 Output written on /Users/julesdupont/school/introToCpp/out/S1_notes.pdf (2 page
-s, 116327 bytes).
+s, 116632 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
