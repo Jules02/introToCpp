@@ -64,6 +64,13 @@ int mycmp(const char s1[], const char s2[]) {
         }
         ++i;
     }
+    // Handle the case where s1 and s2 have different lengths, given the convention that bla < blab
+    if (s1[i] != '\0') {
+        return 1;
+    }
+    if (s2[i] != '\0') {
+        return -1;
+    }
     return 0;
 }
 
