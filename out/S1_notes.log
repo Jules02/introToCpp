@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.18)  26 SEP 2024 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.18)  1 OCT 2024 14:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,7 +430,7 @@ KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/julesdupo
 nt/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
 s/cm/cmtt9.pfb>
 Output written on /Users/julesdupont/school/introToCpp/out/S1_notes.pdf (2 page
-s, 116632 bytes).
+s, 116189 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)

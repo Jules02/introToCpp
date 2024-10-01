@@ -1,0 +1,49 @@
+%! Author = julesdupont
+%! Date = 01/10/2024
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\lstdefinestyle{mystyle}{
+    basicstyle=\ttfamily\footnotesize,
+    breaklines=true,
+    numberstyle=\tiny\color{gray},
+    numbers=left,
+    numbersep=5pt
+}
+
+\lstset{style=mystyle}
+
+
+% Document
+\begin{document}
+
+    \title{\small INTRODUCTION TO C++ \\ \LARGE LESSON 2: ...}
+    \author{Cédric \textsc{Zanni}}
+
+    \maketitle
+
+    \section{...}
+    Two solutions:
+    \begin{itemize}
+        \item In/Out parameter, using \textit{References}
+It is usually not advised to write functions requiring large number of parameters.
+        \item Trivial structures
+
+    \end{itemize}
+
+    \subsection*{Mutability = danger}
+    C++ provides a way to prevent mutability.
+    \begin{lstlisting}[language=C]
+const MyClass& a;
+    \end{lstlisting}
+
+
+
+\end{document}
