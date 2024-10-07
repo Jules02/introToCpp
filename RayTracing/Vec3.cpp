@@ -4,14 +4,21 @@
 
 #include "Vec3.h"
 #include <iostream>
+#include <fstream>
 
 int main() {
-    Vec3 myVector{10,20,30};
-    Vec3 myVector2 = myVector + myVector;
-    std::cout << myVector2 << std::endl;
+    Image monImage;
 
-    Vec3 myVector3 = 0.1 * myVector2;
-    std::cout << myVector3 << std::endl;
+    for (int i = 0; i < monImage.height; ++i) {
+        for (int j = 0; j < monImage.width; ++j) {
+            float RGBColor = static_cast<float>(i) / static_cast<float>(monImage.height);
+            monImage(j, i) = Color{RGBColor, 0.0, 1.0};
+        }
+    }
+
+    writeImagePPM(monImage);
+
+
     return 0;
 }
 
