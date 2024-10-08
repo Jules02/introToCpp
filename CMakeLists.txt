@@ -13,3 +13,8 @@ add_executable(RayTracing
         RayTracing/Vec3.cpp
         RayTracing/Image.cpp
 )
+
+add_executable(Pointers
+        Pointers/CStringProcessing.cpp
+        Pointers/CStringProcessing.cpp
+)
