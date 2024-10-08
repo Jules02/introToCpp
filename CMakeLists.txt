@@ -11,4 +11,5 @@ add_executable(introToCpp
 
 add_executable(RayTracing
         RayTracing/Vec3.cpp
+        RayTracing/Image.cpp
 )
